@@ -32,7 +32,7 @@ ____________________________________________________________________
 		plugins/com.phonegap.plugins.facebookconnect/plugin.xml
 		
  
-7) Buscar las dos lineas que dicen <preference name="APP_ID" /> & <preference name="APP_NAME" /> y reemplazarlas por lo siguiente, recordando modificar los valores de los parametros por los propios.
+7) Buscar las siguientes lineas y reemplazarlas por lo siguiente (recordando modificar los valores de los parametros por los propios).
         
 		Cambiar
 		

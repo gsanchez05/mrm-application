@@ -34,20 +34,21 @@ ____________________________________________________________________
  
 7) Buscar las dos lineas que dicen <preference name="APP_ID" /> & <preference name="APP_NAME" /> y reemplazarlas por lo siguiente, recordando modificar los valores de los parametros por los propios.
         
+		<pre>
 		Cambiar
-		<pre>
+		
 		<preference name="APP_ID" />
-		</pre>
+		
 		por
-		<pre>
+		
 		<param name="APP_ID" value="123456789123"/>
-		</pre>
+		
         Cambiar
-		<pre>
+		
 		<preference name="APP_NAME" />
-		</pre>
+		>
 		por
-		<pre>
+		
 		<param name="APP_NAME" value="Cool App"/>
 		</pre>
 		

@@ -37,18 +37,13 @@ ____________________________________________________________________
 		Cambiar
 		
 		<preference name="APP_ID" />
+		<preference name="APP_NAME" />
 		
 		por
 		
 		<param name="APP_ID" value="123456789123"/>
-		
-        Cambiar
-		
-		<preference name="APP_NAME" />
-		>
-		por
-		
 		<param name="APP_NAME" value="Cool App"/>
+			
 				
 8) Volvemos al root de la aplicación y abrimos la consola para agregar la plataform android.
 

@@ -1,3 +1,11 @@
+
+# Último update:
+____________________________________________________________________
+
+Se subieron todos los archivos del proyecto, se creo un app usando la cuenta de Facebook Developer MRM Desarrollo y se configuraron todos los archivos requeridos. Esto quiere decir que solo bastaría con crear un proyecto y bajar los files del repositorio, hacer un build del app y listo, aún asi recomiendo seguir el tutorial para entender mas el desarrollo del mismo.
+
+
+
 ____________________________________________________________________
 # Hagamos funcionar el plugin de Facebook Connect para Cordova:
 ____________________________________________________________________

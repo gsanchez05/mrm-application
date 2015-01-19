@@ -1,0 +1,170 @@
+body{
+	height: 100%;
+	margin: 0;
+	color: #fff;
+}
+
+body.index{
+	background-color: rgb(83, 30, 140);
+}
+
+body.main{
+	background-color: #fff;
+}
+
+#wrapper{
+	margin: 0 auto;
+	max-width: 768px;
+	padding: 80px 0;
+}
+
+body.main #wrapper{
+	padding: 0;
+}
+
+.facebook{
+	text-align: center;
+	margin: 0 auto;
+	max-width: 125px;
+}
+
+.logueate{
+	box-sizing: border-box;
+	padding: 5px 10px;
+	text-align: center;
+}
+
+.logueate h3{
+	color: #fff;
+	font-size: 0.9em;
+	font-weight: normal;
+	text-transform: uppercase;
+}
+
+.button{
+	background-color: #fff;
+	border: none;
+	border-radius: 2px;
+	color: #333;
+	display: block;
+	font-weight: bold;
+	margin: 20px auto 0 auto;
+	padding: 10px 0;
+	text-align: center;
+	text-decoration: none;
+	text-transform: uppercase;
+	width: 60%;
+}
+
+.ui-input-text{
+	border: 2px solid #fff;
+	border-radius: 5px;
+	margin: 0 auto 10px auto;
+	width: 70%;
+}
+
+.ui-input-text input{
+	color: #fff;
+}
+
+::-webkit-input-placeholder {
+   color: #fff;
+}
+:-moz-placeholder {
+   color: #fff;
+   opacity:  1;
+}
+::-moz-placeholder {
+   color: #fff;
+   opacity:  1;
+}
+:-ms-input-placeholder {
+   color: #fff;
+}
+
+.ui-input-text:first-child{
+	margin: 0 auto 2px auto;
+}
+
+.title{
+	background-color: #797983;
+	text-align: center;
+	width: 100%;
+}
+
+.title h2{
+	font-weight: normal;
+	margin: 15px 0px;
+	text-transform: uppercase;
+}
+
+.image{
+	width: 100%;
+}
+
+.footer{
+	background-color: rgba(146, 143, 143, 0.93);
+	bottom: 0;
+	max-width: 768px;
+	position: fixed;
+	width: 100%;
+}
+
+.footer .coment{
+	background: url(../img/coment.png) 15px center no-repeat;
+}
+
+.footer .ui-input-text{
+	border: none;
+	border-radius: 0;
+	margin: 0 20px 0 auto;
+	width: 80%;
+}
+
+.footer .ui-input-text input{
+	border-bottom: 1px solid #000;
+	font-size: 0.9em;
+	margin-bottom: 5px;
+	padding-bottom: 0;
+}
+
+body.main ::-webkit-input-placeholder {
+   color: #000;
+}
+body.main :-moz-placeholder {
+   color: #000;
+   opacity:  1;
+}
+body.main ::-moz-placeholder {
+   color: #000;
+   opacity:  1;
+}
+body.main :-ms-input-placeholder {
+   color: #000;
+}
+
+.footer .save{
+	background-color: #413e3e;
+	padding: 10px 0;
+}
+
+.footer .save .cancel{
+	float: left;
+	margin-left: 5%;
+}
+
+.footer .save .ok{
+	float: right;
+	margin-right: 5%;
+}
+
+
+/* Extra styles */
+
+#data{text-align: center; padding-top: 30px;}
+
+#myImage{
+	outline: 0;
+	max-width: 100%;
+	height: auto;
+}

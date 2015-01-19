@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Test Facebook APP</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" href="css/jquery.mobile.custom.structure.min.css">
+	<link rel="stylesheet" href="css/pure-min.css">
+	<link rel="stylesheet" href="css/grids-responsive-min.css">
+	<link rel="stylesheet" href="css/styles.css">
+
+	<script type="text/javascript" src="js/jquery-1.11.2.min.js"></script>
+	<script type="text/javascript" src="js/jquery.mobile.custom.min.js"></script>
+</head>
+<body class="index">
+	<script src="js/app.js"></script>
+	<script src="js/cordova.js"></script>
+	<script src="js/cdv-plugin-fb-connect.js"></script>
+	<script src="js/facebook-js-sdk.js"></script>
+	
+	<script>
+	// Iniciar la aplicación Facebook.
+	document.addEventListener('deviceready', function() {
+		try {
+		/*alert('Device is ready! Make sure you set your app_id below this alert.');*/
+		FB.init({ appId: "1375326686108242", nativeInterface: CDV.FB, useCachedDialogs: false });
+		document.getElementById('data').innerHTML = "";
+		} catch (e) {
+			alert(e);
+		}
+		}, false);
+	</script>
+       
+	
+	<div id="wrapper">
+
+		<div class="pure-g facebook">
+			<div class="pure-u 1">
+				<img src="img/facebook-icon.png" class="pure-img" alt="Facebook">
+			</div>
+		</div>
+
+		<div class="pure-g logueate">
+			<div class="pure-u-1">
+				<h3>Logueate con tu usuario de facebook</h3>
+			</div>
+		</div>
+		
+		<div id="log"></div>
+
+		<form action="">			
+			<div class="pure-g">
+				<div class="pure-u-1">
+					<a onclick="login()" class="button">Iniciar Sesión</a>
+					<!--<a onclick="logout()" class="button">Logout</a>-->					
+					<div id="data">Cargando Aplicación ...</div>
+					<div id="fb-root"></div>
+				</div>				
+			</div>
+		</form>
+	</div>
+
+</body>
+</html>

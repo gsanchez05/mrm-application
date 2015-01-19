@@ -69,17 +69,23 @@ ________________________________________________________________________________
 
 
 <pre>
-cordova plugin add org.apache.cordova.camera   			 // Para acceder a la camara.
+cordova plugin add org.apache.cordova.camera 
+// Para acceder a la camara.
 
 	
-cordova plugin add org.apache.cordova.file     			 // Sin uso pero nos permite manejar archivos y tranferirlos, seguro se usara a futuro.
+cordova plugin add org.apache.cordova.file
+// Sin uso pero nos permite manejar archivos y tranferirlos, seguro se usara a futuro.
 
 
-cordova plugin add org.apache.cordova.splashscreen		 // Nos permite Configurar un "BootScreen" para la aplicación.
+cordova plugin add org.apache.cordova.splashscreen
+// Nos permite Configurar un "BootScreen" para la aplicación.
+
 REf: https://github.com/apache/cordova-plugin-splashscreen/blob/master/doc/index.md
 
 
 cordova plugin add https://github.com/EddyVerbruggen/SocialSharing-PhoneGap-Plugin.git
+// Plugin que nos permite compartir contenido con diferentes redes sociales.
+
 REF: https://github.com/EddyVerbruggen/SocialSharing-PhoneGap-Plugin
 </pre>
 		

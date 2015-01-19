@@ -1,5 +1,5 @@
 ____________________________________________________________________
-Primero hagamos funcionar al plugin de Facebook Connect:
+# Primero hagamos funcionar al plugin de Facebook Connect:
 ____________________________________________________________________
 
 1) Instalar cordova
@@ -91,7 +91,7 @@ Lista de plugins del core: http://cordova.apache.org/docs/en/4.0.0/guide_cli_ind
 
 		
 ____________
-Datos Extra
+# Datos Extra
 ____________
 
 - Para que el plugin de FB Connect funcione previamente hay que crear una aplicación en facebook desde:

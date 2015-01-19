@@ -1,5 +1,5 @@
 ____________________________________________________________________
-# Primero hagamos funcionar al plugin de Facebook Connect:
+# Hagamos funcionar el plugin de Facebook Connect para Cordova:
 ____________________________________________________________________
 
 1) Instalar cordova

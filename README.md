@@ -59,7 +59,7 @@ ____________________________________________________________________
 		
 		
 ___________________________________________________________________________________________________________________________________________________________________________
-Ya teniendo nuestro proyecto con Facebook Connect podremos agregar las otras dos funcionalidades restantes (Cámara y Share). Para esto mismo seguimos los siguientes pasos.
+# Ya teniendo nuestro proyecto con Facebook Connect podremos agregar las otras dos funcionalidades restantes (Cámara y Share). Para esto mismo seguimos los siguientes pasos.
 ___________________________________________________________________________________________________________________________________________________________________________
 
 

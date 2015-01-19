@@ -34,7 +34,6 @@ ____________________________________________________________________
  
 7) Buscar las dos lineas que dicen <preference name="APP_ID" /> & <preference name="APP_NAME" /> y reemplazarlas por lo siguiente, recordando modificar los valores de los parametros por los propios.
         
-		<pre>
 		Cambiar
 		
 		<preference name="APP_ID" />
@@ -50,8 +49,7 @@ ____________________________________________________________________
 		por
 		
 		<param name="APP_NAME" value="Cool App"/>
-		</pre>
-		
+				
 8) Volvemos al root de la aplicación y abrimos la consola para agregar la plataform android.
 
         <pre>
@@ -63,9 +61,9 @@ ____________________________________________________________________
  
 10) Abrir el index.html y modificar el appid ubicado en la linea npumero 26 del mismo.
         
-        <pre>
+        
 		FB.init({ appId: "123456789123", nativeInterface: CDV.FB, useCachedDialogs: false });
-		</pre>
+		
 		
 11) Listo eso es todo! Hacemos build, corremos android y a testear nomas.
 

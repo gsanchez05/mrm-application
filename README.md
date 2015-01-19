@@ -42,7 +42,7 @@ ____________________________________________________________________
 		por
 		
 		<param name="APP_ID" value="123456789123"/>
-		<param name="APP_NAME" value="Cool App"/>
+		<param name="APP_NAME" value="namespace_app"/>
 			
 				
 8) Volvemos al root de la aplicación y abrimos la consola para agregar la plataform android.

@@ -65,18 +65,23 @@ ________________________________________________________________________________
 
 11) Acceder al directorio root de nuestro proyecto y abrir consola de comandos.
 
-12) Inslatar los siguientes plugins desde la consola:
+12) Instalar los siguientes plugins desde la consola:
+
 
 
 cordova plugin add org.apache.cordova.camera   			 // Para acceder a la camara.
+
 	
 cordova plugin add org.apache.cordova.file     			 // Sin uso pero nos permite manejar archivos y tranferirlos, seguro se usara a futuro.
+
 
 cordova plugin add org.apache.cordova.splashscreen		 // Nos permite Configurar un "BootScreen" para la aplicación.
 REf: https://github.com/apache/cordova-plugin-splashscreen/blob/master/doc/index.md
 
+
 cordova plugin add https://github.com/EddyVerbruggen/SocialSharing-PhoneGap-Plugin.git
 REF: https://github.com/EddyVerbruggen/SocialSharing-PhoneGap-Plugin
+
 		
 
 Lista de plugins del core: http://cordova.apache.org/docs/en/4.0.0/guide_cli_index.md.html		

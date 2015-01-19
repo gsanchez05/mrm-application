@@ -68,7 +68,7 @@ ________________________________________________________________________________
 12) Instalar los siguientes plugins desde la consola:
 
 
-
+<pre>
 cordova plugin add org.apache.cordova.camera   			 // Para acceder a la camara.
 
 	
@@ -81,7 +81,7 @@ REf: https://github.com/apache/cordova-plugin-splashscreen/blob/master/doc/index
 
 cordova plugin add https://github.com/EddyVerbruggen/SocialSharing-PhoneGap-Plugin.git
 REF: https://github.com/EddyVerbruggen/SocialSharing-PhoneGap-Plugin
-
+</pre>
 		
 
 Lista de plugins del core: http://cordova.apache.org/docs/en/4.0.0/guide_cli_index.md.html		

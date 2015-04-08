@@ -11,54 +11,84 @@
 
 	<script type="text/javascript" src="js/jquery-1.11.2.min.js"></script>
 	<script type="text/javascript" src="js/jquery.mobile.custom.min.js"></script>
-</head>
-<body class="index">
+	
+	<script src="cordova.js"></script>
 	<script src="js/app.js"></script>
-	<script src="js/cordova.js"></script>
 	<script src="js/cdv-plugin-fb-connect.js"></script>
 	<script src="js/facebook-js-sdk.js"></script>
 	
-	<script>
-	// Iniciar la aplicación Facebook.
-	document.addEventListener('deviceready', function() {
-		try {
-		/*alert('Device is ready! Make sure you set your app_id below this alert.');*/
-		FB.init({ appId: "1535880976665999", nativeInterface: CDV.FB, useCachedDialogs: false });
-		document.getElementById('data').innerHTML = "";
-		} catch (e) {
-			alert(e);
-		}
-		}, false);
-	</script>
-       
-	
-	<div id="wrapper">
+</head>
 
-		<div class="pure-g facebook">
-			<div class="pure-u 1">
-				<img src="img/facebook-icon.png" class="pure-img" alt="Facebook">
-			</div>
-		</div>
+<body class="index">
 
-		<div class="pure-g logueate">
-			<div class="pure-u-1">
-				<h3>Logueate con tu usuario de facebook</h3>
-			</div>
-		</div>
+		<script>
+			// Inicio FB.
+			document.addEventListener('deviceready', function() {
+				try {
+				FB.init({
+					appId: "1535880976665999",
+					nativeInterface: CDV.FB,
+					useCachedDialogs: true,
+					cookie: true,
+					frictionlessRequests: true
+				});
+				document.getElementById('data').innerHTML = "Ready!";	
+				} catch (e) {
+					alert(e);
+				}
+			}, false);
+		</script>
+
+		<div id="wrapper">
 		
-		<div id="log"></div>
+			<div page="login-home">
+		
+				<div class="pure-g facebook">
+					<div class="pure-u 1">
+						<img src="img/facebook-icon.png" class="pure-img" alt="Facebook">
+					</div>
+				</div>
 
-		<form action="">			
-			<div class="pure-g">
-				<div class="pure-u-1">
-					<a onclick="login()" class="button">Iniciar Sesión</a>
-					<!--<a onclick="logout()" class="button">Logout</a>-->					
-					<div id="data">Cargando Aplicación ...</div>
-					<div id="fb-root"></div>
-				</div>				
-			</div>
-		</form>
-	</div>
+				<div class="pure-g logueate">
+					<div class="pure-u-1">
+						<h3>Logueate con tu usuario de facebook</h3>
+					</div>
+				</div>
+				
+				<div id="log"></div>
 
+				<form action="">			
+					<div class="pure-g">
+						<div class="pure-u-1">
+							<a onclick="login()" class="button">Iniciar Sesión</a>
+							<div id="data">Cargando Aplicación ...</div>
+							<div id="fb-root"></div>
+						</div>				
+					</div>
+				</form>
+			
+			</div>			
+			
+			<div page="logged-in-home">		
+
+				<div class="pure-g logueate">
+					<div class="pure-u-1">
+						<h3>Saca una foto con tu cámara o elige una de tu galería.</h3>
+					</div>
+				</div>
+
+				<img id="myImage">
+
+				<a id="takePicture" class="button">Sacar FOTO</a>
+				<a id="usePicture" class="button">Buscar FOTO</a>
+				<a onclick="logout()" class="button">Logout</a>
+			
+			</div>					
+			
+		</div>	
+	
+	</body>
+</html>
+	
 </body>
 </html>

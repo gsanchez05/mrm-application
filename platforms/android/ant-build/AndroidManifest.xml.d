@@ -1,2 +1,2 @@
-C:\xampp\htdocs\mrm-application\splash\platforms\android\ant-build\AndroidManifest.xml : \
-C:\xampp\htdocs\mrm-application\splash\platforms\android\AndroidManifest.xml \
+C:\xampp\htdocs\mrm-application\mrm-application\platforms\android\ant-build\AndroidManifest.xml : \
+C:\xampp\htdocs\mrm-application\mrm-application\platforms\android\AndroidManifest.xml \
